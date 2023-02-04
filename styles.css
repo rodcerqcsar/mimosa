@@ -1,92 +1,209 @@
-body {
-    height: 100vh;
-    margin: 0;
-    overflow: hidden;
-    font-family: Roboto, sans-serif;
-    display: flex;
-    flex-direction: column;
+* {
+    font-family: arial, sans-serif;
   }
   
-.content {
-    flex: 1;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: row;
-}
-
-.logo {
-    font-size: 28px;
-    color: #F9FAF8;
-}  
+  /*header*/
+  header {
+    background-color: #192841;
+    padding: 45px;
+    color: white;
+    margin: 0px 0px;
+    padding-bottom: 80px;
+  }
   
-.right {
+  html,
+  body {
+    margin: 0;
+    height: 100%;
+    min-height: 100%;
+  }
+  
+  /*Navigation*/
+  .left {
     display: flex;
+    justify-content: center;
     align-items: center;
-    font-size: 18px;
-}
+  }
+  
+  .right {
+    margin-top: -15px;
+  }
 
-.footer {
-    background: #eee;
-}
+  #logo {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+  }
+  
+  p {
+    font-size: medium;
+    margin-left: 15px;
+  }
 
-.header,
-.footer {
+  a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  .nav {
     display: flex;
     justify-content: space-between;
-    padding: 16px;
-    background-color: #1f2937;
-}
-
-img {
-    width: 300px;
-}
+    align-items: baseline;
+    margin-top: -45px;
+  }
   
-button {
-    font-family: Roboto, sans-serif;
-    border: none;
-    border-radius: 8px;
-    background: #eee;
-    padding: 8px 16px;
-}
-
-.input {
-
-
-}
-/*  
-input {
-    border: 1px solid #ddd;
-    border-radius: 16px;
-    padding: 8px 24px;
-    width: 400px;
-    margin-bottom: 16px;
-}
-*/
-ul {
+  .nav ul {
+    list-style-type: none;
     display: flex;
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    gap: 16px
-}
-
-
-a {
-    color: #fff;
-    text-decoration: none;
-}
-
-p {
-    
-}
-
-
-
-
+    gap: 25px;
+  }
   
-
+  .welcome {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+  }
   
-
-
+  .welcomeContainer {
+    padding-right: 100px;
+  }
   
+  .leavesimage {
+    height: 35vh;
+    border-radius: 30px;
+  }
+  
+  .location {
+    width: 100vw;
+    height: 320px;
+    font-size: 23px;
+  }
+  
+  .homesTitle {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  
+  .locationContainer {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    gap: 100px;
+    margin-top: 20px;
+  }
+  
+  .plant {
+    height: 100px;
+    width: 150px;
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+    margin-right: 20px;
+  }
+  .plant img {
+    height: 21vh;
+    width: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+    will-change: transform;
+    transition: transform 450ms;
+  }
+  
+  .plant img:hover {
+    transition: transform 125ms;
+    transform: translateY(-10px);
+    cursor: pointer;
+  }
+  
+  .plant p {
+    margin-left: 40px;
+    margin-top: 5px;
+    font-size: 13px;
+    color: #3d3d3d;
+  }
+  
+  /*section 3*/
+  
+  .section3 {
+    background-color: #d3d3d3;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+    padding: 50px;
+  }
+  
+  .quote {
+    font-size: 25px;
+    text-align: center;
+    font-style: oblique;
+    color: rgb(71, 71, 71);
+  }
+  
+  .thor {
+    font-weight: bold;
+    font-size: 18px;
+    margin: 0px 50px;
+  }
+  
+  /*section 4*/
+  .signUpContainer {
+    background-color: white;
+    margin: 50px 150px;
+    text-align: left;
+    border-radius: 7px;
+    border: 3px solid #3c89d0;
+    padding: 15px 0px 15px 15px;
+    background-color: #3c89d0;
+    color: white;
+    font-size: 17px;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  .question {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .action {
+    font-size: 15px;
+    opacity: 85%;
+  }
+  
+  .signUpButton {
+    margin-top: 5px;
+  }
+  
+  #topButton {
+    border: none;
+    border-radius: 3px;
+    background-color: #3c89d0;
+    color: white;
+    height: 30px;
+    width: 80px;
+    font-size: 13px;
+  }
+  
+  #endButton {
+    height: 30px;
+    width: 80px;
+    font-size: 13px;
+    border: 2px solid white;
+    border-radius: 3px;
+    background-color: #3c89d0;
+    color: white;
+  }
+  
+  footer {
+    background-color: #192841;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+  }
