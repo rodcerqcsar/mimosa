@@ -1,6 +1,5 @@
 * {
     font-family: arial, sans-serif;
-    padding: 20px;
   }
   
   /*header*/
@@ -18,7 +17,16 @@
     height: 100%;
     min-height: 100%;
   }
+
+  div.left {
+    margin-top: 15px;
+  }
   
+  ul.header-links {
+    display: flex;
+    justify-content: top;
+  }
+
   /*Navigation*/
   .left {
     display: flex;
@@ -54,7 +62,7 @@
     display: flex;
     justify-content: space-between;
     align-items: baseline;
-    margin-top: 45px;
+    margin-top: -45px;
   }
   
   .nav ul {
