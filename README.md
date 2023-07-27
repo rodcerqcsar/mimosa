@@ -1,9 +1,27 @@
-# mimosabrasil
-Site Mimosa Brasil
-1st photo: Psychotria viridis. Crédits: Wikimedia Commons.
+<h1 align="center"> Mimosa Brasil </h1>
 
-#Author
+<br>
 
-Rodrigo C C César
 
-https://www.linkedin.com/in/rodrigocccesar
+<p align="center">
+  <img alt="Preview App" src="mimosa.png" width="100%">
+</p>
+
+## 🚀 Tecnologies
+
+This project was developed with:
+
+- HTML
+- CSS 
+
+## 💻 Project
+
+Mimosa Brasil is a website about ethnobotany and 
+living pharmacy.
+
+---
+
+No Copyright :wave: by https://www.freecodecamp.org
+
+- [Access the finished project, online](https://rodrigocccesar.github.io/mimosa)
+
