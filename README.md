@@ -21,7 +21,5 @@ living pharmacy.
 
 ---
 
-No Copyright :wave: by https://www.freecodecamp.org
-
 - [Access the finished project, online](https://rodrigocccesar.github.io/mimosa)
 
