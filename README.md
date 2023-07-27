@@ -4,7 +4,7 @@
 
 
 <p align="center">
-  <img alt="Preview App" src="mimosa.png" width="100%">
+  <img alt="Preview App" src="./imgs/mimosa.png" width="100%">
 </p>
 
 ## 🚀 Tecnologies
