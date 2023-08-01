@@ -1,4 +1,4 @@
-<h1 align="center"> Mimosa Brasil </h1>
+<h1 align="center"> Mimosa Brazil </h1>
 
 <br>
 
