@@ -1,5 +1,8 @@
 * {
-    font-family: arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;  
+  font-family: arial, sans-serif;
   }
   
   /*header*/
@@ -215,4 +218,23 @@
     display: flex;
     justify-content: center;
     padding: 5px;
+  }
+
+  /* Mobile Styles */
+  @media only screen and (max-width: 400px) {
+    body {
+      background-color: #F09A9D;
+    }
+  }
+  /* Tablet Styles */
+  @media only screen and (min-width: 401px) and (max-width: 960px) {
+    body {
+      background-color: #f5cf8e;
+    }
+  }
+  /* Desktop Styles */
+  @media only screen and (min-width: 961px) {
+    body {
+      background-color: #b2d6ff;
+    }
   }

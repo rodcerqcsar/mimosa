@@ -4,7 +4,7 @@
 
 
 <p align="center">
-  <img alt="Preview App" src="./imgs/mimosa.png" width="100%">
+  <img alt="Preview App" src="mimosa.png" width="100%">
 </p>
 
 ## 🚀 Tecnologies
@@ -20,6 +20,8 @@ Mimosa Brasil is a website about ethnobotany and
 living pharmacy.
 
 ---
+
+No Copyright :wave: by https://www.freecodecamp.org
 
 - [Access the finished project, online](https://rodrigocccesar.github.io/mimosa)
 
