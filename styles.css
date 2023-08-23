@@ -232,6 +232,24 @@
       background-color: #f5cf8e;
     }
   }
+
+ /* Carrinho Style */
+
+#products {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.product {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+button {
+    margin-top: 10px;
+}
   /* Desktop Styles */
   @media only screen and (min-width: 961px) {
     body {
